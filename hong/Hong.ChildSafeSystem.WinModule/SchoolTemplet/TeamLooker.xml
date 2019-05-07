@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<profile>
+  <section name="Driver">
+    <entry name="XPObjectTypeName">Hong.ChildSafeSystem.Module.Team</entry>
+    <entry name="ViewType">Looker</entry>
+  </section>
+  <section name="View">
+    <entry name="XPObjectTypeName">Hong.ChildSafeSystem.Module.Team</entry>
+    <entry name="ViewType">Looker</entry>
+  </section>
+  <section name="Contains">
+    <entry name="1">Contain1</entry>
+    <entry name="2">Contain2</entry>
+  </section>
+  <section name="Controls">
+    <entry name="1">Control1</entry>
+    <entry name="2">Control2</entry>
+  </section>
+  <section name="Actions">
+    <entry name="1">Action1</entry>
+    <entry name="2">Action2</entry>
+  </section>
+  <section name="Contain1">
+    <entry name="TypeName">Hong.Xpo.WinModule.WinContainPanel</entry>
+    <entry name="ParentName"></entry>
+    <entry name="Dock">Fill</entry>
+    <entry name="Height">60</entry>
+    <entry name="LocationX">-1</entry>
+    <entry name="LocationY">-1</entry>
+    <entry name="Width">-1</entry>
+  </section>
+  <section name="Contain2">
+    <entry name="TypeName">Hong.Xpo.WinModule.WinContainGroupBox</entry>
+    <entry name="ParentName"></entry>
+    <entry name="Dock">Bottom</entry>
+    <entry name="Height">-1</entry>
+    <entry name="LocationX">-1</entry>
+    <entry name="LocationY">-1</entry>
+    <entry name="Width">-1</entry>
+  </section>
+  <section name="Control1">
+    <entry name="TypeName">Hong.Xpo.WinModule.WinButton</entry>
+    <entry name="ParentName">Contain2</entry>
+    <entry name="Dock">Left</entry>
+    <entry name="Height">50</entry>
+    <entry name="LocationX">-1</entry>
+    <entry name="LocationY">-1</entry>
+    <entry name="Width">50</entry>
+    <entry name="ActionName">Action1</entry>
+  </section>
+  <section name="Control2">
+    <entry name="TypeName">Hong.Xpo.WinModule.WinListView</entry>
+    <entry name="ParentName">Contain1</entry>
+    <entry name="Dock">Fill</entry>
+    <entry name="Height">-1</entry>
+    <entry name="LocationX">-1</entry>
+    <entry name="LocationY">-1</entry>
+    <entry name="Width">-1</entry>
+    <entry name="FieldsName">Name Title</entry>
+    <entry name="FieldsTitle">Name Title</entry>
+    <entry name="FieldsLength">200 200</entry>
+    <entry name="ParentName">Contain1</entry>
+  </section>
+  <section name="Action1">
+    <entry name="TypeName">Hong.Xpo.UiModule.ActionRefresh</entry>
+  </section>
+  <section name="Action2">
+    <entry name="TypeName">Hong.Xpo.UiModule.ActionRefresh</entry>
+  </section>
+</profile>

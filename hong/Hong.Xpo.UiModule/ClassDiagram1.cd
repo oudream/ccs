@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hong.Xpo.UiModule.AssemblyManager" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAABAAAAAAgAAAEAAAIAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>AssemblyManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.CellerBase" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAIIAIAgCEBAAAAoQARQgAAAgSAKEEwACiACAAA=</HashCode>
+      <FileName>CellerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.ComponentManager" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKAAAAABACAAAAAgABAAAAAAAAAAAAACAAACCAAAAA=</HashCode>
+      <FileName>ComponentManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.CxmlDocument" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAQAAAACAAAQAAAAAAAAAAAAAAQAAAAAAAABAAAA=</HashCode>
+      <FileName>CxmlDocument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.CxmlDocumentManager" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgAAAAAAAAIAIAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>CxmlDocumentManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.EditorTypeAttribute" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>EditorTypeAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.EntryNameDefine" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAIAAAgAAAABAAAAAAAAAAAAAAAAEAAAAAAQ=</HashCode>
+      <FileName>EntryNameDefine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.SectionNameDefine" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAAEpAAAgAAAQgAgAQAAAABCAAAAAABCAAACCAAAA=</HashCode>
+      <FileName>SectionNameDefine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.UiButton" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAQAAAAAAAAAAIAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>UiButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.UiContain" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UiContain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.UiControlEasy&lt;T&gt;" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UiControlEasy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.UiControlGeneric&lt;T&gt;" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAIAAAAIAEAAhAAAAAAAAAAAADAAAAAAAAgAAAAEAA=</HashCode>
+      <FileName>UiControlGeneric.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.UiControlList" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAEAAAAACAAAAAAAAAAAIAAAABAKAAAA=</HashCode>
+      <FileName>UiControlList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.UiControlObject" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAQACAAAAAAAAAAAAAACAIAAAAAAAAACAAAA=</HashCode>
+      <FileName>UiControlObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.UiControlTable" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIBwAACAICcQAFAAAgAABAAAQAAAAQAAACIBAABgBEA=</HashCode>
+      <FileName>UiControlTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.UiLayout" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAEAAAAQAABAAABAAgAAAAAAAAAAAAAAQAAggAAAA=</HashCode>
+      <FileName>UiLayout.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.UiWindow" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABggAgAAAAAAAAIJAADAAQAEgAAACACCICBYAAAAQ=</HashCode>
+      <FileName>UiWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.VariableValueDefine" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAACAAACAAAIAAAAAAAAAEAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>VariableValueDefine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.ViewerBase" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgAQAAAAAAAAAAAgQAgBAAAAAAAAAQAAkIAEAA=</HashCode>
+      <FileName>ViewerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.ViewerEditor" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAA=</HashCode>
+      <FileName>ViewerEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.ViewerLooker" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAkIQAAgAAAAAAAAAAAQAAAIAAAFEA=</HashCode>
+      <FileName>ViewerLooker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.UiModule.WindowManager&lt;T&gt;" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>WindowManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Hong.Xpo.UiModule.FieldDescribe" Collapsed="true">
+    <Position X="12.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAARAAAAAAAAIAAEAAAAAAAA=</HashCode>
+      <FileName>FieldDescribe.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Hong.Xpo.UiModule.EditorType" Collapsed="true">
+    <Position X="12.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>EditorType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Hong.Xpo.UiModule.ViewerType" Collapsed="true">
+    <Position X="14" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>ViewerType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Hong.Xpo.UiModule.WindowStyle" Collapsed="true">
+    <Position X="15.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAQAAAAAAAAAACEAAAA=</HashCode>
+      <FileName>WindowStyle.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

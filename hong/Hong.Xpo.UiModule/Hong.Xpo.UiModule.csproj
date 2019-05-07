@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0235E503-0C85-4426-92EA-ECD0F7628577}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hong.Xpo.UiModule</RootNamespace>
+    <AssemblyName>Hong.Xpo.UiModule</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Printing.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyManager.cs" />
+    <Compile Include="CellerBase.cs" />
+    <Compile Include="ComponentManager.cs" />
+    <Compile Include="CxmlDocument.cs" />
+    <Compile Include="CxmlDocumentManager.cs" />
+    <Compile Include="EditorType.cs" />
+    <Compile Include="EditorTypeAttribute.cs" />
+    <Compile Include="FieldDescribe.cs" />
+    <Compile Include="UiControlObject.cs" />
+    <Compile Include="EntryNameDefine.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SectionNameDefine.cs" />
+    <Compile Include="UiButton.cs" />
+    <Compile Include="UiContain.cs" />
+    <Compile Include="UiControlGeneric.cs" />
+    <Compile Include="UiControlEasy.cs" />
+    <Compile Include="UiControlList.cs" />
+    <Compile Include="UiControlTable.cs" />
+    <Compile Include="UiLayout.cs" />
+    <Compile Include="VariableValueDefine.cs" />
+    <Compile Include="ViewerBase.cs" />
+    <Compile Include="UiWindow.cs" />
+    <Compile Include="ViewerEditor.cs" />
+    <Compile Include="ViewerLooker.cs" />
+    <Compile Include="WindowStyle.cs" />
+    <Compile Include="WindowManager.cs" />
+    <Compile Include="ViewerType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hong.Profile.Base\Hong.Profile.Base.csproj">
+      <Project>{34619B84-0ACC-41CB-81D9-F0679C99AFEB}</Project>
+      <Name>Hong.Profile.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hong.Xpo.Module\Hong.Xpo.Module.csproj">
+      <Project>{B710B730-2649-44BC-A7D0-D29B7439DF69}</Project>
+      <Name>Hong.Xpo.Module</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

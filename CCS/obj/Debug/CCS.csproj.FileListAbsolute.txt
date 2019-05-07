@@ -1,0 +1,11 @@
+C:\build.limi\csharp\CCS\bin\Debug\CCS.dll
+C:\build.limi\csharp\CCS\bin\Debug\CCS.pdb
+C:\build.limi\csharp\CCS\bin\Debug\MySql.Data.dll
+C:\build.limi\csharp\CCS\bin\Debug\Oracle.DataAccess.dll
+C:\build.limi\csharp\CCS\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\build.limi\csharp\CCS\bin\Debug\System.Data.SQLite.dll
+C:\build.limi\csharp\CCS\bin\Debug\System.Data.SQLite.pdb
+C:\build.limi\csharp\CCS\bin\Debug\System.Data.SQLite.xml
+C:\build.limi\csharp\CCS\obj\Debug\CCS.csprojResolveAssemblyReference.cache
+C:\build.limi\csharp\CCS\obj\Debug\CCS.dll
+C:\build.limi\csharp\CCS\obj\Debug\CCS.pdb

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C1B3AF2A-C313-40A8-BFE4-1324C27E4D2C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hong.ChildSafeSystem.WinModule</RootNamespace>
+    <AssemblyName>Hong.ChildSafeSystem.WinModule</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SchoolCenter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hong.Common.Stringer\Hong.Common.Stringer.csproj">
+      <Project>{274F39E9-11A1-41CC-A904-D1685212AFF2}</Project>
+      <Name>Hong.Common.Stringer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hong.Common.Systemer\Hong.Common.Systemer.csproj">
+      <Project>{EA5150F1-52F1-4A5D-B381-B663DC452AC3}</Project>
+      <Name>Hong.Common.Systemer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hong.Common.SystemWin\Hong.Common.SystemWin.csproj">
+      <Project>{2B300264-0ADD-4CB2-A4E4-58B66341E1FC}</Project>
+      <Name>Hong.Common.SystemWin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hong.Xpo.Module\Hong.Xpo.Module.csproj">
+      <Project>{B710B730-2649-44BC-A7D0-D29B7439DF69}</Project>
+      <Name>Hong.Xpo.Module</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hong.Xpo.UiModule\Hong.Xpo.UiModule.csproj">
+      <Project>{0235E503-0C85-4426-92EA-ECD0F7628577}</Project>
+      <Name>Hong.Xpo.UiModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hong.Xpo.WinModule\Hong.Xpo.WinModule.csproj">
+      <Project>{8AED54BF-A7F7-4F7C-83A9-6C5C6724EDEE}</Project>
+      <Name>Hong.Xpo.WinModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hong.ChildSafeSystem.Module\Hong.ChildSafeSystem.Module.csproj">
+      <Project>{A56A1A14-E4E2-4AB4-BA42-7FB78AF1D179}</Project>
+      <Name>Hong.ChildSafeSystem.Module</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hong.Audio.Speech\Hong.Audio.Speech.csproj">
+      <Project>{F7FD1DDC-CFE4-4EAF-87FD-62484655CDC4}</Project>
+      <Name>Hong.Audio.Speech</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

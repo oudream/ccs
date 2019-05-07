@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hong.ChildSafeSystem.Module.Contact" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAFAAAACAAAQiAJUAHACAAgAIAAACDFMECB0QgQAE=</HashCode>
+      <FileName>Contact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.DllWrapper" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RRIAAAICAChAQGQJASACAqEQAhAAADAAAAAAgEhEDBI=</HashCode>
+      <FileName>Fingerprint\DllWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.MessageForm" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Fingerprint\FingerprintWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.FingerprintWrapper" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAACEBAUKGAAgCAAWAAIIAEAiAAABIAJBgAAABBBAA=</HashCode>
+      <FileName>Fingerprint\FingerprintWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.TipEventArgs" Collapsed="true">
+    <Position X="13.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fingerprint\FingerprintWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.EnrolledEventArgs" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>Fingerprint\FingerprintWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.ShowImageEventArgs" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fingerprint\FingerprintWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.CapturedEventArgs" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>Fingerprint\FingerprintWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.MessageEventArgs" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAIAAAEAA=</HashCode>
+      <FileName>Fingerprint\FingerprintWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.FingerPrint" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJAAAEEAAAAAAAEAACAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>FingerPrint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.FingerPrintImpl" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAEEAAAAAAAAAACAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FingerPrintImpl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.FingerPrintManager" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAA=</HashCode>
+      <FileName>FingerPrintManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.GenderManager" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACQAAQAAACAAgAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Gender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.Genearch" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Genearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.InSchool" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAQAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InSchool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.InSchoolManager" Collapsed="true">
+    <Position X="18.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InSchoolManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.OutSchool" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>OutSchool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.People" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAMEAAAAAAAKCQCEAwAAAAEAAIAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>People.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.Position" Collapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.Role" Collapsed="true">
+    <Position X="18.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAECAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Role.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.School" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>School.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.Student" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAIAAAAAAAAAAAABAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.Takeman" Collapsed="true">
+    <Position X="18.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAIAQAAAAAAAAAAAAAAAAAAAAAAAAAgABAAAAAA=</HashCode>
+      <FileName>Takemen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.Teacher" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Teacher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.Team" Collapsed="true">
+    <Position X="11.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAECAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Team.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.ChildSafeSystem.Module.User" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAgAgAAACAAAAAAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Hong.ChildSafeSystem.Module.Message" Collapsed="true">
+    <Position X="16.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAQgAACAAAAIYACAAABAAAAAAAAAAAAAAAAAggABgg=</HashCode>
+      <FileName>Fingerprint\FingerprintWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Hong.ChildSafeSystem.Module.FingerprintTip" Collapsed="true">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAQQAAAQBAQMAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Fingerprint\FingerprintWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Hong.ChildSafeSystem.Module.FingerprintMode" Collapsed="true">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Fingerprint\FingerprintWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Hong.ChildSafeSystem.Module.FingerType" Collapsed="true">
+    <Position X="13.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAACAAAAAAAAAAAABAABAAAAAgAAgCgAAQAAQAAAA=</HashCode>
+      <FileName>FingerType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Hong.ChildSafeSystem.Module.Gender" Collapsed="true">
+    <Position X="15" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Gender.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Hong.ChildSafeSystem.Module.FingerSourceType" Collapsed="true">
+    <Position X="18.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FingerSourceType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

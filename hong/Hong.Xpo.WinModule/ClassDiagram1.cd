@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hong.Xpo.WinModule.WinLayout" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAEMAABECAAAAABBoAAMAAABAAAAAIAAgAAAAIAAA=</HashCode>
+      <FileName>WinLayout.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.WinModule.WinButton" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAEgABAAEQAAAAAAAIAAACAAAAAACAAAAAA=</HashCode>
+      <FileName>WinButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.WinModule.WinCheckBox" Collapsed="true">
+    <Position X="10" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAEAABAEAAAAAAAAAAAAAAACAIAACAAQAAA=</HashCode>
+      <FileName>WinCheckBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.WinModule.WinComboBox" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAEgABAAEAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>WinComboBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.WinModule.WinContain" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAgAAAAACAAAAAAIAAAACAIAAAACAAACgQ=</HashCode>
+      <FileName>WinContain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.WinModule.WinContainGroupBox" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAACAIAAAAAAAAA=</HashCode>
+      <FileName>WinContainGroupBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.WinModule.WinContainPanel" Collapsed="true">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WinContainPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.WinModule.WinControlEasy&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAACAAAAAA=</HashCode>
+      <FileName>WinControlEasy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.WinModule.WinControlList" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAACAAAAAA=</HashCode>
+      <FileName>WinControlList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.WinModule.WinControlTable" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAACAIAAAACAAAAAA=</HashCode>
+      <FileName>WinControlTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.WinModule.WinDatetimeBox" Collapsed="true">
+    <Position X="1" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAABAEAAAAAgAAQAAAAAACAAACCAAYAAA=</HashCode>
+      <FileName>WinDatetimeBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.WinModule.WinImageBox" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAABAEEAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>WinImageBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.WinModule.WinListBox" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAEgABAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WinListBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.WinModule.WinListView" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAIAEIgAQAIEAiAAACAAAAAAAAAAAAJQAAAAAA=</HashCode>
+      <FileName>WinListView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.WinModule.WinNumericBox" Collapsed="true">
+    <Position X="3.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAEAABAEAAAAAAAAQAAAAACCAAACCAAQAAA=</HashCode>
+      <FileName>WinNumericBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.WinModule.WinRadioBox" Collapsed="true">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAABAEEAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>WinRadioBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.WinModule.WinTextBox" Collapsed="true">
+    <Position X="12" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAMAABAEAAAAAAAAQEAAAAACAAACCAAQAAA=</HashCode>
+      <FileName>WinTextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hong.Xpo.WinModule.WinWindow" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABAA=</HashCode>
+      <FileName>WinWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
